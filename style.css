@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;	
+	box-sizing: border-box;
+}
+.header{
+	background-color: #F5FAFF;
+	padding:40px 135px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+}
+.header ul{
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+	list-style: none;
+}
+.header a {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+}
+.chumauxanh{
+	color: #1786FA;
+	font-weight: bold;
+}
+.banner{
+	background-color: #F5FAFF;
+	padding: 120px 135px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 90vh;
+}
+.context{
+	width: 400px;
+}
+.context h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+.context p{
+	padding-top: 28px;
+}
+.context img{
+	width: 580px;
+	height: 480px;
+}
